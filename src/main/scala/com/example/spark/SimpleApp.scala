@@ -15,7 +15,7 @@ import org.apache.spark.sql.SparkSession
 import scala.concurrent.ExecutionContext
 import scala.{Stream => _}
 
-// generate file random file with 100 chars lines (sorted)
+// generate random file with 100 chars lines (sorted)
 // tr -dc A-Za-z0-9 </dev/urandom | head -c 10M  | sed -e "s/.\{100\}/&\n/g" | sort  > /tmp/10M
 
 object SimpleApp {
